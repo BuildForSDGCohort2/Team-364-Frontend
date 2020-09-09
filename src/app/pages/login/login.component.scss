@@ -1,3 +1,8 @@
+
+ body{
+     background-color: #212c3c;
+ }
+
 * {
 	box-sizing: border-box;
 }
@@ -184,10 +189,6 @@ input[type=checkbox]{
 	width: 50%;
 	
 }
-
-
-
-
 .overlay-container {
 	position: absolute;
 	top: 0;
@@ -197,6 +198,8 @@ input[type=checkbox]{
 	overflow: hidden;
 	
 }
+
+
 
 .overlay {
     background: #5bfd7e;
@@ -225,5 +228,4 @@ input[type=checkbox]{
     left: 0;
 	
 }
-
 
