@@ -100,28 +100,100 @@
     grid-gap: 3px;
 }
 
+
+// CSS FOR NEW PODCAST
+
 .podcast{
-    background: #2781ca;
+    background:white;
+    border-radius: 5px;
+}
+
+.podcast:hover .podcastplay .podcastplaybtn{
+    opacity: 1;
 }
 
 
-img{
+.card-img{
     height: 200px;
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.img-svg{
+    font-size: 1em;
+    color: white;
 }
 
 .podcast-infos{
     padding: 0 5px;
+    display: flex;
+}
+
+.podcastplay{
+    margin-left: 10px;
+}
+
+.podcastplaybtn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(14, 202, 14);
+    transition: 1ms ease;
+    opacity: 0;
 }
 
 .infos{
     margin-top: 3px;
     font-size: 1rem;
-    color: white;
+    color: rgb(20, 20, 53);
 }
 
 .views{
     color: white;
     margin-top: 5px;
+    color: rgb(20, 20, 53);
 }
 
+
+// CSS FOR CATEGORY
+
+.categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.category{
+    height: 250px;
+    width: 100%;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.category:hover{
+    border: 2px solid white;
+}
+
+.cat-title{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+// CSS FOR CHANNELS
+
+.profil{
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.profil-img{
+    height: 80px;
+    width: 80px;
+}
