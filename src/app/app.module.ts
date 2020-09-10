@@ -14,8 +14,11 @@ import { PosdcastsListComponent } from './pages/posdcasts-list/posdcasts-list.co
 import { PosdcastsCategoriesComponent } from './pages/posdcasts-categories/posdcasts-categories.component';
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { environment } from "../environments/environment";
+
+
 import { FeaturesComponent } from './pages/features/features.component';
 import { MainComponent } from './pages/main/main.component';
+
 
 
 @NgModule({
@@ -29,8 +32,10 @@ import { MainComponent } from './pages/main/main.component';
     SinglePosdcastComponent,
     PosdcastsListComponent,
     PosdcastsCategoriesComponent,
+
     FeaturesComponent,
     MainComponent
+
   ],
   imports: [
     BrowserModule,
